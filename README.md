@@ -23,3 +23,9 @@ The best performing model was the model trained with the RandomForestClassifier 
 [I worked on a dataset with 10,000 entries using python](https://github.com/Ayoyinka-Sofuwa/Financial-project/blob/main/Financial%20data.ipynb), and from the data, we see that:
 * About 71% of the customers are employed and 29% aren't.
 * Some of the customers at every income level defaulted (about 3% total), regardless of whether they were earning high or not. This indicates that a high income is not an absolute determinant that a customer will repay a loan.
+* The bank balance feature has a very low significance in determining whether a person will repay or default on a loan
+* And the annual salary has the most significance on whether a person will repay a loan
+
+#### Classification tasks
+I used the LogisticRegression algorithm to predict whether a customer will default on a loan and got an accuracy of 0.9676 and the RandomForestClassifier algorithm to predict the same and got an accuracy of 0.9696.
+The RandomForestClassifier algorithm performed a little better but generally, this scores indicated a good performing model.
