@@ -19,5 +19,7 @@ This dataset contains 10,000 entries of data about loan defaulters in a financia
 
 The best performing model was the model trained with the RandomForestClassifier algoritm with an accuracy of 0.9696
 
-#### Insights:
-[I worked on a dataset with 10,000 entries using python](https://github.com/Ayoyinka-Sofuwa/Financial-project/blob/main/Financial%20data.ipynb),
+#### Some Insights:
+[I worked on a dataset with 10,000 entries using python](https://github.com/Ayoyinka-Sofuwa/Financial-project/blob/main/Financial%20data.ipynb), and from the data, we see that:
+* About 71% of the customers are employed and 29% aren't.
+* Some of the customers at every income level defaulted (about 3% total), regardless of whether they were earning high or not. This indicates that a high income is not an absolute determinant that a customer will repay a loan.
